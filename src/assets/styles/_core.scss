@@ -1,0 +1,123 @@
+@import './_mixins.scss';
+@import './_variables.scss';
+
+@charset "UTF-8";
+
+/**
+ * Основные стили
+ **/
+
+.container {
+    @include min-max(320px, 100%, 0);
+}
+
+.wrap {
+    @include min-max(320px, 1460px, 15px);
+}
+
+body {
+    font-family: "Basis Grotesque Pro", Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: $bg-beige;
+    color: $dark-blue;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    max-width: 1920px;
+    margin: 0 auto;
+
+    @media (max-width: 550px) {
+        min-width: 550px;
+    }
+}
+
+li {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.btn-main {
+    border: 2px solid $dark-blue;
+    background-color: transparent;
+    padding: 0 20px 2px;
+    height: 57px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: $dark-blue;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    box-shadow: none;
+    appearance: none;
+    outline: none;
+    transition: all 300ms;
+
+    &:hover,
+    &active {
+        background-color: $dark-blue;
+        color: $bg-beige;
+    }
+}
+
+.title-48 {
+    font: 300 48px/60px "Recoleta", Helvetica, sans-serif;
+    color: $dark-blue;
+}
+
+.title-32 {
+    font: 300 32px/48px "Recoleta", Helvetica, sans-serif;
+    color: $dark-blue;
+}
+
+.title-24 {
+    font: 400 24px/48px "Recoleta", Helvetica, sans-serif;
+    color: $dark-blue;
+}
+
+.title-14 {
+    font: 400 14px/1 "Basis Grotesque Pro", Helvetica, sans-serif;
+    color: $dark-blue;
+}
+
+.text-20 {
+    font: 400 20px/30px "Basis Grotesque Pro", Helvetica, sans-serif;
+    color: $dark-blue;
+}
+
+.slide-fade-enter-active {
+    transition: all 1s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: #fafaf2;
+    margin-top: 10px;
+}
+
+.scroll::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #fafaf2;
+    margin-top: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: $dark-blue;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.965" height="19.901" viewBox="0 0 20.965 19.901">
+    <g id="User" transform="translate(0.5 0.5)">
+        <path id="Fill_1" data-name="Fill 1" d="M8.919,4.46A4.46,4.46,0,1,1,4.46,0a4.46,4.46,0,0,1,4.46,4.46" transform="translate(5.523 0)" fill="#fffefb"></path>
+        <path id="Stroke_3" data-name="Stroke 3" d="M8.919,4.46A4.46,4.46,0,1,1,4.46,0,4.46,4.46,0,0,1,8.919,4.46Z" transform="translate(5.523 0)" fill="none" stroke="#004c70" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"></path>
+        <g id="Group_8" data-name="Group 8" transform="translate(0 8.839)">
+            <path id="Fill_5" data-name="Fill 5" d="M19.965,9.982A9.982,9.982,0,0,0,0,9.982H17.7" transform="translate(0 0.081)" fill="#fffefb"></path>
+            <path id="Stroke_7" data-name="Stroke 7" d="M19.965,9.982A9.982,9.982,0,0,0,0,9.982H17.7" transform="translate(0 0.081)" fill="none" stroke="#004c70" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"></path>
+        </g>
+    </g>
+</svg>
